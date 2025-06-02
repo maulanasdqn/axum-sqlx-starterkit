@@ -1,0 +1,13 @@
+[package]
+name = "api-iam"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+uuid.workspace = true
+chrono.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sqlx.workspace = true
+axum.workspace = true
+api-lib = { path = "../api-lib", version = "0.1.0" }
