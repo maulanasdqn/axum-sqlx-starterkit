@@ -10,4 +10,8 @@ serde.workspace = true
 serde_json.workspace = true
 sqlx.workspace = true
 axum.workspace = true
+utoipa.workspace = true
+anyhow.workspace = true
 api-lib = { path = "../api-lib", version = "0.1.0" }
+api-util = { path = "../api-util", version = "0.1.0" }
+api-entity = { path = "../api-entity", version = "0.1.0" }

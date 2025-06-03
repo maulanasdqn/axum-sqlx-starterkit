@@ -9,3 +9,4 @@ serde_json.workspace = true
 sqlx.workspace = true
 uuid.workspace = true
 chrono.workspace = true
+utoipa.workspace = true
